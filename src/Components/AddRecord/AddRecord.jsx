@@ -45,18 +45,17 @@ const AddRecord = () => {
           Add Record
         </button>
         <div
-          style={{ display: "flex", flexDirection: "column", height: "350px" }}
+          className="sub-container"
+          style={{ display: "flex", flexDirection: "column", height: "23rem" }}
         >
           {add.map((currentElement, index) => {
-            // console.log(index);
             return (
               <div
                 className="data-container"
                 style={{
-                  width: "500px",
+                  width: "30rem",
                   display: "flex",
                   justifyContent: "space-between",
-                  // marginTop: "30px",
                   padding: "30px 10px 30px 10px",
                 }}
                 key={index}
