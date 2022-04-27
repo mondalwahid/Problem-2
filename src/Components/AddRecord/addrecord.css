@@ -1,9 +1,7 @@
 .main-container{
-    /* width: 100%; */
     height: 100vh;
     display:flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -13,8 +11,8 @@
     color: white;
     background-color: #17aaff;
     border: none;
-    position: absolute;
-    top: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .data-container{
@@ -28,6 +26,18 @@
     border: none;
     cursor: pointer;
 
+}
+
+@media only screen and (max-width: 600px) {
+
+  .sub-container{
+      max-height: 24rem;
+      height: 5rem;
+  }
+
+  .data-container{
+      max-width: 300px;
+  }
 }
 
 
