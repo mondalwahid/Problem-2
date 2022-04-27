@@ -1,0 +1,34 @@
+.main-container{
+    /* width: 100%; */
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-btn{
+    padding: .5rem 1rem .5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: #17aaff;
+    border: none;
+    position: absolute;
+    top: 100px;
+}
+
+.data-container{
+    border: 1px solid black;
+}
+
+.data-container button{
+    background-color: red;
+    padding: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
